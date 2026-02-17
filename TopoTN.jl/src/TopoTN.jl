@@ -10,7 +10,6 @@ using QuanticsGrids
 using TCIITensorConversion
 using TensorCrossInterpolation
 using Plots
-using Base.Threads
 
 export MPO, MPS, OpSum, expect, inner, siteinds
 
@@ -22,3 +21,4 @@ include("2D_lattice.jl")
 
 
 end
+
