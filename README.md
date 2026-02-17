@@ -63,9 +63,5 @@ These can be loaded directly to reproduce results without rebuilding the MPOs.
 
 ---
 
-## Citation
-
-If you use this code, please cite the associated manuscript:
-
 
 
