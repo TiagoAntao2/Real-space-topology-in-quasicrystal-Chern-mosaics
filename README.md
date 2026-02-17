@@ -63,5 +63,27 @@ These can be loaded directly to reproduce results without rebuilding the MPOs.
 
 ---
 
+## Installation
+
+The code is written in Julia and depends on the following packages.
+
+### Required packages
+
+Run the following in the Julia REPL before using the repository:
+
+```julia
+using Pkg
+
+Pkg.add("LinearAlgebra")   # stdlib (usually already available)
+Pkg.add("ITensors")
+Pkg.add("NDTensors")
+Pkg.add("ITensorMPS")
+Pkg.add("Quantics")
+Pkg.add("QuanticsTCI")
+Pkg.add("QuanticsGrids")
+Pkg.add("TCIITensorConversion")
+Pkg.add("TensorCrossInterpolation")
+Pkg.add("Plots")
+
 
 
