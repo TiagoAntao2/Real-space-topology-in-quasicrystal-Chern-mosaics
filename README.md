@@ -72,7 +72,7 @@ The code is written in Julia and depends on the following packages:
 Run the following in the Julia REPL before using the repository:
 
 
-```
+```julia
 using Pkg
 
 Pkg.add("LinearAlgebra")   # stdlib (usually already available)
